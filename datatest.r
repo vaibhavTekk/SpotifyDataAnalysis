@@ -17,18 +17,18 @@ View(trackdetails$track.id)
 audio_features <- get_track_audio_features(trackdetails$track.id)
 View(audio_features)
 
-audio_features <- audio_features[!(audio_features$energy>0.5),]
+#audio_features <- audio_features[!(audio_features$energy>0.5),]
 danceability <- audio_features$danceability
 energy <- audio_features$energy
 
 
-plot(x = danceability, y = energy,
-     xlab = "Danceability",
-     ylab = "Energy",
-     xlim = c(min(danceability) - 0.2, max(danceability) + 0.2),
-     ylim = c(min(energy) - 0.2, max(energy) +0.2),       
+plot(x = energy, y = danceability,
+     xlab = "Energy",
+     ylab = "Danceability",
+     ylim = c(min(danceability) - 0.2, max(danceability) + 0.2),
+     xlim = c(min(energy) - 0.2, max(energy) +0.2),       
      main = "Danceability vs Energy"
 )
 
-de_lm <- lm(formula = energy ~ danceability)
+de_lm <- lm(formula = danceability ~ energy)
 abline(de_lm)
