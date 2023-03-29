@@ -16,6 +16,6 @@
       Following which Open The DataSet Files and Execute to see respective analysis and testing of popular hypothesis in today's 
       world of music
   
-  FAQ Errors During R setup after version change from 4.2.2 to 4.2.3 if user hasnt updated:__
-      rlang error : remove.packages(rlang) then install.packages(rlang)__
+  FAQ Errors During R setup after version change from 4.2.2 to 4.2.3 if user hasnt updated:  
+      rlang error : remove.packages(rlang) then install.packages(rlang)  
       vctr error : remove.packages(vctr) then install.packages(vctr)
