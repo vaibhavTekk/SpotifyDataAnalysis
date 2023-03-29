@@ -8,7 +8,7 @@ TEAM :
   >MONISH P,
   >MANI C,
   
-Configurations and Procedures:
+/Configurations and Procedures:
   Version OF R required : 4.2.3
   Installation Of Following Packages is Mandatory:
       scatterplot3d and spotifyr 
