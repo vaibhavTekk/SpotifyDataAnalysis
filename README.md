@@ -13,7 +13,8 @@
   ### Installation Of Following Packages is Mandatory:
       scatterplot3d and spotifyr 
       >> The Following Packages installation Code Has been Placed in setup.r File execute the file once<<
-      Following which Open The DataSet Files and Execute to see respective analysis and testing of popular hypothesis in today's world of music
+      Following which Open The DataSet Files and Execute to see respective analysis and testing of popular hypothesis in today's 
+      world of music
   
   FAQ Errors During R setup after version change from 4.2.2 to 4.2.3 if user hasnt updated:
       rlang error : remove.packages(rlang) then install.packages(rlang)
