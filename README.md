@@ -3,10 +3,10 @@
 
 
 TEAM :
-  VARUN V
-  VAIBHAV TS
-  MONISH P
-  MANI C
+  >VARUN V 
+  >VAIBHAV TS
+  >MONISH P
+  >MANI C
   
 Configurations and Procedures:
   Version OF R required : 4.2.3
