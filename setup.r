@@ -1,3 +1,5 @@
+install.packages("scatterplot3d")
+library(scatterplot3d)
 install.packages('spotifyr')
 library(spotifyr)
 Sys.setenv(SPOTIFY_CLIENT_ID = 'fecaca040b82440c8cc8f31516e47050')
