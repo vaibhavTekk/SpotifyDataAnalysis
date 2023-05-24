@@ -6,7 +6,7 @@
   >VARUN V ,
   >VAIBHAV TS,
   >MONISH P,
-  >MANI C,
+  >MANNI C,
   
 ## Configurations and Procedures:
   Version OF R required : 4.2.3
